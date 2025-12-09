@@ -46,7 +46,7 @@ const handleReset =()=>{
     
     // Simulate API call with 5 second wait
 const res = await axios.post(
-  "https://api-worker.dev-f07.workers.dev/api/gpt-image",
+  "https://sign-analyzer.maxorr64.workers.dev/api/gpt-image",
   {
     imageBase64: selectedImage.replace(/^data:image\/\w+;base64,/, "")
   },
